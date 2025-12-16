@@ -1,5 +1,13 @@
 <!-- start custom head snippets -->
 
+{% if page.styles %}
+  {% for href in page.styles %}
+    <link rel="stylesheet" href="{{ href | relative_url }}">
+  {% endfor %}
+{% endif %}
+
+<meta name="jekyll-baseurl" content="{{ '' | relative_url }}">
+
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 <!-- end custom head snippets -->

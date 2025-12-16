@@ -1,9 +1,9 @@
 # main links
 main:
   - title: "Ontology"
-    url: /ontology/
-  - title: "Interface"
-    url: /interface/
+    url: https://raw.githubusercontent.com/fortiss/OntoGSN/main/serializations/ontogsn.ttl
+  - title: "Playground"
+    url: /playground/
   - title: "Development"
     url: /development/
   - title: "Tutorial"
